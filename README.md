@@ -45,6 +45,10 @@ esac
 exit 0
 </pre>
 Then run `sudo update-rc.d xvfb defaults`
+##Step 3
+Add the line
+`export DISPLAY=:1`
+to `/etc/rc.local`
 ##All done
 Now you can run<br/>
 `sudo service xvfb start` and<br/>
